@@ -62,7 +62,6 @@ class App extends React.Component {
     };
 
     clearCompleted = () => {
-      console.log("bk: index.js: App: clearPurchased");
       this.setState({
         dataTodo: this.state.dataTodo.filter(item => {
           return !item.completed;
