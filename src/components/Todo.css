@@ -1,0 +1,43 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto 0;
+    align-content: center;
+    text-align: center;
+   
+    font-size: 1.5rem;
+
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:auto;
+    margin: 4px 0;
+    padding-left: 8px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.item.completed {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: lightblue;
+    text-decoration: line-through;
+    text-align: center;
+    color: rgb(70, 106, 184);
+} 
+
+    button{
+        font-size: 1.5rem;
+        color: darkblue;
+}
+
+input{
+    font-size: 1.5rem;
+    text-align: center;
+}
